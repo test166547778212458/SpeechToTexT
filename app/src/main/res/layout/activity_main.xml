@@ -27,10 +27,10 @@
     <ImageButton
         android:layout_marginBottom="120dp"
         android:id="@+id/imageButton"
-        android:onClick="speachtotextClick"
+        android:onClick="speechtotextClick"
         android:adjustViewBounds="false"
         android:layout_width="100dp"
-        android:contentDescription="Button to start record voice"
+        android:contentDescription="@string/btsrv"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

@@ -27,10 +27,8 @@ public class MainActivity extends AppCompatActivity {
         record = (ImageButton) findViewById(R.id.imageButton);
         message = (TextView) findViewById(R.id.textView);
 
-        System.out.println("Locale.getDefault() "+ Locale.getDefault());
-
     }
-    public void speachtotextClick(View view){
+    public void speechtotextClick(View view){
         //request component from speech recognition
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
 

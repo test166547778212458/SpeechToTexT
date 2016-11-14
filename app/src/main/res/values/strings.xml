@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">STT</string>
+    <string name="btsrv">Button to start record voice</string>
 </resources>
